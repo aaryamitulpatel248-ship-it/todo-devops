@@ -6,7 +6,7 @@ tasks = []
 
 @app.route("/")
 def home():
-    return "To-Do API is running"
+    return "To-Do API v2 is running"
 
 
 @app.route("/health")
